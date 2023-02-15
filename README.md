@@ -1,3 +1,4 @@
-# Repository for Very Low Frequency Appliance Detection Benchmark
+# Repository for Very Low-Frequency Appliance Detection Benchmark
 
-## To reproduce the experiments, follow the READMEs instruction in the DATA folder to get the data for each dataset. 
+## To get the data for each dataset, follow the READMEs instruction in the corresponding dataset folder. 
+## To reproduce the experiments, use the 3 Python scripts corresponding to each dataset.
