@@ -155,9 +155,9 @@ if __name__ == "__main__":
                    'cBOSS': clf_cboss,
                    'KNNeucli' : clf_knne,
                    'KNNdtw' : clf_knndtw,
-                   'ResNet': {'model_inst': ResNet, 'batch_size': 32, 'lr': 1e-3, 'wd': 1e-3},
-                   'Inception': {'model_inst': Inception, 'batch_size': 32, 'lr': 1e-3, 'wd': 1e-3},
-                   'ConvNet': {'model_inst': ConvNet, 'batch_size': 32, 'lr': 1e-3, 'wd': 1e-3},
+                   'ResNet': {'model_inst': ResNet, 'batch_size': 32, 'lr': 1e-3, 'wd': 0},
+                   'Inception': {'model_inst': Inception, 'batch_size': 32, 'lr': 1e-3, 'wd': 0},
+                   'ConvNet': {'model_inst': ConvNet, 'batch_size': 32, 'lr': 1e-3, 'wd': 0},
                    'ResNetAtt': {'model_inst': ResNetAtt, 'batch_size': 32, 'lr': 0.0002, 'wd': 0.5}
                   }
 
